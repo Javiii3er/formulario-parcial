@@ -1,0 +1,124 @@
+.form-select:focus {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.15);
+  border-color: white;
+}
+
+/* Estilo personalizado del select */
+.form-select {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  padding-right: 35px !important;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat !important;
+  background-position: right 10px center !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+}
+
+.form-select option {
+  background: rgba(0, 0, 0, 0.95);
+  color: white;
+}
+
+
+.gender-options-container {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+/* Radios personalizados - Versión mejorada */
+.form-check-input[type="radio"] {
+  width: 1.2em;
+  height: 1.2em;
+  margin-top: 0;
+  margin-right: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border: 2px solid rgba(255, 255, 255, 0.5) !important;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.form-check-input[type="radio"]:checked {
+  background-color: transparent !important;
+  border-color: #003cd4 !important;;
+}
+
+.form-check-input[type="radio"]:checked::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #004ad4;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Checkbox personalizado - Versión mejorada */
+.form-check-input[type="checkbox"] {
+  width: 1.2em;
+  height: 1.2em;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border: 2px solid rgba(255, 255, 255, 0.5) !important;
+  transition: all 0.2s ease;
+}
+
+.form-check-input[type="checkbox"]:checked {
+  background-color: rgba(0, 212, 116, 0.2) !important;
+  border-color: #003cd4 !important;
+}
+
+.form-check-input[type="checkbox"]:checked::after {
+  content: '✓';
+  display: block;
+  text-align: center;
+  color: #00d474;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: -1px;
+  left: 1px;
+}
+
+
+
+/* Etiquetas */
+.form-check-label {
+  cursor: pointer;
+  user-select: none;
+  padding-left: 5px;
+}
+
+/* Errores */
+.invalid-feedback {
+  color: #ff6b6b;
+  font-size: 0.85rem;
+}
+
+.is-invalid {
+  border-color: #ff6b6b !important;
+}
+
+/* Modal personalizado */
+.modal-glass {
+  background: rgba(0, 0, 0, 0.7) !important;
+  backdrop-filter: blur(5px);
+}
+
+.modal-content-glass {
+  background: rgba(4, 16, 121, 0.562);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content-glass .btn-close {
+  filter: invert(1);
+}
