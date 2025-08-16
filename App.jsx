@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
-  return <formulario/>;
+  return <Formulario/>;
 }
 
 export default App;
