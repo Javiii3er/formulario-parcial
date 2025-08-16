@@ -1,10 +1,10 @@
 import React from 'react';
-import Formulario from './components/Formulario';
+import Formulario from './components/formulario';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
-  return <Formulario />;
+  return <formulario/>;
 }
 
 export default App;

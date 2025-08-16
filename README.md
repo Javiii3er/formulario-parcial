@@ -1,6 +1,8 @@
 
 Deploy en GitHub Pages
 
+Este proyecto está publicado en https://javiii3er.github.io/formulario-parcial/
+
 Se usó el paquete "gh-pages" para desplegar el contenido del build.
 
 Para hacer el deploy:
